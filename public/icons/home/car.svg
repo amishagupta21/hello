@@ -1,0 +1,16 @@
+<svg id="Component_18_3" data-name="Component 18 – 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="367" height="148" viewBox="0 0 367 148">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7734" data-name="Rectangle 7734" width="367" height="148" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-car-side" data-name="Icon awesome-car-side" d="M151.153,43.265h-4.446L116.482,8.407A18.387,18.387,0,0,0,102.6,2.25H43.159c-7.271,0-13.809,4.084-16.51,10.313L13.337,43.845C5.679,45.675,0,52.035,0,59.671V88.382a4.283,4.283,0,0,0,4.446,4.1H17.783c0,13.591,11.942,24.609,26.674,24.609s26.674-11.018,26.674-24.609H106.7c0,13.591,11.942,24.609,26.674,24.609s26.674-11.018,26.674-24.609h13.337a4.283,4.283,0,0,0,4.446-4.1V67.874C177.827,54.283,165.885,43.265,151.153,43.265Zm-106.7,61.523c-7.355,0-13.337-5.519-13.337-12.3s5.982-12.3,13.337-12.3,13.337,5.519,13.337,12.3S51.812,104.788,44.457,104.788ZM64.462,43.265H32.49l10.67-24.609h21.3Zm13.337,0V18.656h24.8l21.339,24.609Zm55.571,61.523c-7.355,0-13.337-5.519-13.337-12.3s5.982-12.3,13.337-12.3,13.337,5.519,13.337,12.3S140.725,104.788,133.37,104.788Z" transform="translate(160.418 18.244)" fill="#56d846"/>
+    <path id="Icon_awesome-car-side-2" data-name="Icon awesome-car-side" d="M151.153,43.265h-4.446L116.482,8.407A18.387,18.387,0,0,0,102.6,2.25H43.159c-7.271,0-13.809,4.084-16.51,10.313L13.337,43.845C5.679,45.675,0,52.035,0,59.671V88.382a4.283,4.283,0,0,0,4.446,4.1H17.783c0,13.591,11.942,24.609,26.674,24.609s26.674-11.018,26.674-24.609H106.7c0,13.591,11.942,24.609,26.674,24.609s26.674-11.018,26.674-24.609h13.337a4.283,4.283,0,0,0,4.446-4.1V67.874C177.827,54.283,165.885,43.265,151.153,43.265Zm-106.7,61.523c-7.355,0-13.337-5.519-13.337-12.3s5.982-12.3,13.337-12.3,13.337,5.519,13.337,12.3S51.812,104.788,44.457,104.788ZM64.462,43.265H32.49l10.67-24.609h21.3Zm13.337,0V18.656h24.8l21.339,24.609Zm55.571,61.523c-7.355,0-13.337-5.519-13.337-12.3s5.982-12.3,13.337-12.3,13.337,5.519,13.337,12.3S140.725,104.788,133.37,104.788Z" transform="translate(-340.456 18.244)" fill="#56d846"/>
+    <line id="Line_65" data-name="Line 65" x1="62.321" transform="translate(83.671 126.173)" fill="none" stroke="#76f166" stroke-linecap="round" stroke-width="5"/>
+    <line id="Line_66" data-name="Line 66" x1="62.321" transform="translate(47.895 108.072)" fill="none" stroke="#76f166" stroke-linecap="round" stroke-width="5"/>
+    <line id="Line_67" data-name="Line 67" x1="62.321" transform="translate(83.671 89.971)" fill="none" stroke="#76f166" stroke-linecap="round" stroke-width="5"/>
+    <line id="Line_68" data-name="Line 68" x1="13.849" transform="translate(25.967 89.971)" fill="none" stroke="#76f166" stroke-linecap="round" stroke-width="5"/>
+    <line id="Line_69" data-name="Line 69" x1="13.849" transform="translate(25.967 126.173)" fill="none" stroke="#76f166" stroke-linecap="round" stroke-width="5"/>
+  </g>
+</svg>
