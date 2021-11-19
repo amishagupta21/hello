@@ -177,9 +177,9 @@ class App extends React.Component  {
         <div className="page first-page">
             <Slide1 />
         </div>
-        {/* <div className="page second-page">
+        <div className="page second-page">
           <Slide2 />
-        </div> */}
+        </div>
         <div className="page third-page">
           <Slide3 />
         </div>
@@ -190,9 +190,9 @@ class App extends React.Component  {
           <Slide5 />
         </div>
 
-        {/* <div className="page sixth-page">
+        <div className="page sixth-page" style={{display : "block"}}>
           <Slide6 />
-        </div> */}
+        </div>
 
         <div>
           <Footer></Footer>

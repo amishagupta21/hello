@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
 
-import charger from "../../public/icons/home/charger.svg"
+import charger from "../../public/icons/home/charger1.svg"
 import solar from "../../public/icons/home/solar.svg"
 
 import Image from 'next/image'
@@ -32,8 +32,9 @@ export default function Slide2() {
               WHAT WE DO
             </h2>
 
-            <p className="pt-4 text-gray-500">We offer a scalabel and white label software solution helps</p>
-            <p className="-py-8 text-gray-500">business manage offer a scalabel and white label software solution helps business and clients </p>
+            <p className="pt-4 text-gray-500"> When you search for electric vehicle charging stations near me? 
+</p>
+            <p className="-py-8 text-gray-500">Our team members strive to offer you clean energy solutions at affordable prices. The world needs more and more environment-friendly energy sources and we work with full dedication to provide you with the best possible solutions. And we work with aim of supporting this goal. </p>
          </div>
 
         <div className="relative mt-12 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-x-8">

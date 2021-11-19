@@ -1,114 +1,222 @@
-import React, { useRef, useState } from "react";
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+ import react, {useState} from "react"
+ 
+ 
+ const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-
-const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'About us', href: '/about' },
-    { name: 'EV Solutions', href: '/solutions' },
-    { name: 'Network Solutions', href: '/network' },
-  ]
-
-  
-const Navbar = () =>{
-     return(
-      <Popover style={{backgroundColor  : "#8A39F9"}} >
-        <div className="max-w-7xl mx-auto py-5 px-4 sm:px-6" style={{backgroundColor  : "#8A39F9"}}>
-          <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
-            <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-              <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
-                  <span className="sr-only">Workflow</span>
-                  
-                  {/* <img
-                    className="h-8 w-auto sm:h-10"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                    alt=""
-                  /> */}
-                  <img  className="h-10 w-auto sm:h-10" src="https://img.icons8.com/external-wanicon-two-tone-wanicon/100/000000/external-electricity-construction-wanicon-two-tone-wanicon.png"/>
-                </a>
-                <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500">
-                    <span className="sr-only">Open main menu</span>
-                    <MenuIcon className="h-6 w-6" aria-hidden="true" />
-                  </Popover.Button>
-                </div>
-              </div>
-            </div>
-            <div className="hidden md:flex md:space-x-10">
-              {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="font-medium text-white rounded-md py-2 px-3  hover:text-gray-900 hover:border-gray-300 hover:border-2 hover:rounded-md hover:bg-gray-200 hover:p-2 ">
-                  {item.name}
-                </a>
-              ))}
-            </div>
-            <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
-              <span className="inline-flex rounded-md shadow">
-                <a
-                  href="/contact"
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-purple-800 bg-white hover:text-purple-600"
-                >
-                  Contact Us
-                </a>
-              </span>
-            </div>
-          </nav>
-        </div>
-
-        <Transition
-          as={Fragment}
-          enter="duration-150 ease-out"
-          enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100"
-          leave="duration-100 ease-in"
-          leaveFrom="opacity-100 scale-100"
-          leaveTo="opacity-0 scale-95"
-        >
-          <Popover.Panel
-            focus
-            className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+  return (
+    <div class="bg-gray-200">
+      <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
+        <div class="relative flex items-center justify-between">
+          <a
+            href="/"
+            aria-label="Company"
+            title="Company"
+            class="inline-flex items-center"
           >
-            <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-              <div className="px-5 pt-4 flex items-center justify-between">
-                <div>
-                  <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-green-600.svg"
-                    alt=""
-                  />
-                </div>
-                <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500">
-                    <span className="sr-only">Close main menu</span>
-                    <XIcon className="h-6 w-6" aria-hidden="true" />
-                  </Popover.Button>
-                </div>
-              </div>
-              <div className="px-2 pt-2 pb-3 space-y-1">
-                {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-black bg-gray-100 hover:text-gray-300 hover:bg-gray-100   "
-                  >
-                    {item.name}
-                  </a>
-                ))}
-              </div>
+            <svg
+              class="w-8 text-teal-accent-400"
+              viewBox="0 0 24 24"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeMiterlimit="10"
+              stroke="currentColor"
+              fill="none"
+            >
+              <rect x="3" y="1" width="7" height="12" />
+              <rect x="3" y="17" width="7" height="6" />
+              <rect x="14" y="1" width="7" height="6" />
+              <rect x="14" y="11" width="7" height="12" />
+            </svg>
+            <span class="ml-2 text-2xl font-medium tracking-wide text-gray-800 ">
+              BrarSoft
+            </span>
+          </a>
+          <ul class="flex items-center hidden space-x-8 lg:flex">
+            <li>
+              <a
+                href="/"
+                aria-label="Our product"
+                title="Our product"
+                class="font-bold tracking-wide text-gray-600  hover:text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/about"
+                aria-label="Our product"
+                title="Our product"
+                class="font-bold tracking-wide text-gray-600  hover:text-gray-900  transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                AboutUs
+              </a>
+            </li>
+            <li>
+              <a
+                href="/solutions"
+                aria-label="Product pricing"
+                title="Product pricing"
+                class="font-bold tracking-wide text-gray-600  hover:text-gray-900  transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                Solutions
+              </a>
+            </li>
+            <li>
+              <a
+                href="/network"
+                aria-label="Solutions"
+                title="About us"
+                class="font-bold tracking-wide text-gray-600 hover:text-gray-900  transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                Network
+              </a>
+            </li>
+            <li>
               <a
                 href="/contact"
-                className="block w-full px-5 py-3 text-center font-medium text-purple-700 bg-gray-50 hover:bg-gray-100 hover:text-purple-700"
+                aria-label="About us"
+                title="About us"
+                class="font-bold tracking-wide text-gray-600 hover:text-gray-900  transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Contact us
               </a>
-            </div>
-          </Popover.Panel>
-        </Transition>
-      </Popover>
-     )
-}
+            </li>
+          </ul>
+          <div class="lg:hidden">
+            <button
+              aria-label="Open Menu"
+              title="Open Menu"
+              class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
+              onClick={() => setIsMenuOpen(true)}
+            >
+              <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"
+                />
+              </svg>
+            </button>
+            {isMenuOpen && (
+              <div class="absolute -mt-2 top-0 left-0 w-full z-40">
+                <div class="p-5 bg-white border rounded shadow-sm">
+                  <div class="flex items-center justify-between mb-4">
+                    <div>
+                      <a
+                        href="/"
+                        aria-label="Company"
+                        title="Company"
+                        class="inline-flex items-center"
+                      >
+                        <svg
+                          class="w-8 text-deep-purple-accent-400"
+                          viewBox="0 0 24 24"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeMiterlimit="10"
+                          stroke="currentColor"
+                          fill="none"
+                        >
+                          <rect x="3" y="1" width="7" height="12" />
+                          <rect x="3" y="17" width="7" height="6" />
+                          <rect x="14" y="1" width="7" height="6" />
+                          <rect x="14" y="11" width="7" height="12" />
+                        </svg>
+                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 ">
+                          BrarSoft
+                        </span>
+                      </a>
+                    </div>
+                    <div>
+                      <button
+                        aria-label="Close Menu"
+                        title="Close Menu"
+                        class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                          <path
+                            fill="currentColor"
+                            d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <nav>
+                    <ul class="space-y-4">
+                      <li>
+                        <a
+                          href="/"
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-bold tracking-wide   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Home
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/about"
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-bold tracking-wide text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          About us
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/solutions"
+                          aria-label="Product pricing"
+                          title="Product pricing"
+                          class="font-bold tracking-wide text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Solutions
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/network"
+                          aria-label="About us"
+                          title="About us"
+                          class="font-bold tracking-wide text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                           Network
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/contact"
+                          aria-label="About us"
+                          title="About us"
+                          class="font-bold tracking-wide text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Contact
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 
 export default Navbar;

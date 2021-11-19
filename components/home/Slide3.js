@@ -17,9 +17,7 @@ const Content = () => {
         <div className="flex flex-col justify-center">
         
           <div className="max-w-xl mb-6">
-              <span  style={{background :"#F4785A"}} className="h-12 w-12 mb-4 m rounded-md flex items-center justify-center ">
-                  <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
-              </span>
+            
               
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               EV
@@ -35,28 +33,13 @@ const Content = () => {
             </p>
           </div>
           <div className="grid gap-5 row-gap-8 sm:grid-cols-2">
-            <div className="bg-white border-l-4 shadow-sm  border-purple-600">
-              <div className="h-full p-5 border border-l-0 rounded-r bg-purple-100">
-                <h6 className="mb-2 font-semibold leading-5">
-                  I'll be sure to note that in my log
-                </h6>
-                <p className="text-sm text-gray-900">
-                  Lookout flogging bilge rat main sheet bilge water nipper fluke
-                  to go on account heave down.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white border-l-4 shadow-sm border-purple-600">
-              <div className="h-full p-5 border border-l-0 rounded-r bg-purple-100 ">
-                <h6 className="mb-2 font-semibold leading-5">
-                  A business big enough that it could be listed
-                </h6>
-                <p className="text-sm text-gray-900">
-                  Those options are already baked in with this model shoot me an
-                  email clear.
-                </p>
-              </div>
-            </div>
+            <button
+                  type="submit"
+                  className="ev-button  hover:shadow-md  mt-2 w-full inline-flex items-center justify-center px-14 py-1   text-base font-medium  sm:w-auto"
+                >
+                    Know more
+            </button>
+           
           </div>
         </div>
         <div  >

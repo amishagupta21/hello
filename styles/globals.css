@@ -211,3 +211,10 @@ body {
 .header__background{
   background-image: linear-gradient(#913CF9, #5A28F8);
 }
+
+
+.ev-button{
+  background-image: linear-gradient(to right,rgb(91, 184, 228) , rgb(33, 33, 129));
+  border-radius: 5px 40px 5px;
+  color : white;
+}

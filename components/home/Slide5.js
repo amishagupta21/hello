@@ -1,63 +1,66 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
 
-import simens from "../../public/icons/home/simens.svg"
-import signature from "../../public/icons/home/signature.svg"
+import charger from "../../public/icons/home/charger1.svg"
+import solar from "../../public/icons/home/solar.svg"
 
 import Image from 'next/image'
 
+const features = [
+  {
+    name: 'Competitive rates',
+    description: 'Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.',
+    icon: charger,
+  },
+  {
+    name: 'No hidden fees',
+    description:
+      'Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.',
+    icon: solar,
+  },
+  
+]
 
-
-/* This example requires Tailwind CSS v2.0+ */
-export default function Example() {
+export default function Slide2() {
   return (
-    <div style={{background  : "#F3F2F3"}} >
-      <div className="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:py-28 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-          <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Used by the world's most average companies
+    <div className="bg-gray-50 overflow-hidden py-8 " style={{background  : "#F3F2F3"}}>
+      <div className="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        
+
+        <div className="lg:col-span-1">
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              OUR PARTNERS
             </h2>
-            <p className="mt-3 max-w-3xl text-lg text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a
-              scelerisque amet ullamcorper eu enim et fermentum, augue.
-            </p>
-            <div className="mt-8 sm:flex">
-              <div className="rounded-md shadow">
-                <a
-                  href="/contact"
-                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700"
-                >
-                  Contact Us
-                </a>
-              </div>
-             
-            </div>
-          </div>
-          <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-2 lg:mt-0 lg:grid-cols-2">
 
+            <p className="pt-4 text-gray-500"> We are leading in the future of electric Charing. Our firm is one of the top-notch electric car charging companies. 
 
+             </p>
+            <p className="-py-8 text-gray-500">We have enough knowledge and expertise in this field from past years in providing you the well-designed and maintained EV charging stations. </p>
+         </div>
+
+        <div className="relative mt-12 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-x-8">
          
-            <div style={{background  : "#F3F2F3"}} className="col-span-1 flex justify-center py-2 px-2 bg-gray-100">
-              <img
-                className="max-h-full"
-                src="./icons/home/simens.svg"
-                alt="StaticKit"
-              />
+        <div style={{background  : "#F3F2F3"}} className="col-span-1 flex justify-center py-2 px-2 bg-gray-100">
+            <img
+              className="max-h-full"
+              src="./icons/home/simens.svg"
+              alt="StaticKit"
+            />
             </div>
             <div style={{background  : "#F3F2F3"}} className="col-span-1 flex justify-center py-2  px-2 bg-gray-100">
-              <img
-                className="max-h-full"
-                src="./icons/home/signature.svg"
-                alt="Statamic"
-              />
-            </div>
+            <img
+              className="max-h-full"
+              src="./icons/home/signature.svg"
+              alt="Statamic"
+            />
+         </div>
 
 
-
-          </div>
         </div>
       </div>
     </div>
   )
 }
+
+
+

@@ -1,28 +1,23 @@
 /* This example requires Tailwind CSS v2.0+ */
+
+import config from "../config/config"
+
 const navigation = {
     solutions: [
-      { name: 'Marketing', href: '#' },
-      { name: 'Analytics', href: '#' },
-      { name: 'Commerce', href: '#' },
-      { name: 'Insights', href: '#' },
+      { name: 'Home', href: '/' },
+      { name: 'Contact us', href: '/contact' },
     ],
     support: [
-      { name: 'Pricing', href: '#' },
-      { name: 'Documentation', href: '#' },
-      { name: 'Guides', href: '#' },
-      { name: 'API Status', href: '#' },
+      { name: 'About us', href: '/about' },
+      
     ],
     company: [
-      { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Jobs', href: '#' },
-      { name: 'Press', href: '#' },
-      { name: 'Partners', href: '#' },
+      { name: 'Ev solutions', href: '/solutions' },
+     
     ],
     legal: [
-      { name: 'Claim', href: '#' },
-      { name: 'Privacy', href: '#' },
-      { name: 'Terms', href: '#' },
+      { name: 'Network solutions', href: '/network' },
+     
     ],
     social: [
       {
@@ -90,9 +85,10 @@ const navigation = {
   }
   
 
+
   export default function Footer() {
     return (
-      <footer style={{backgroundColor : "#220d66"}} aria-labelledby="footer-heading">
+      <footer style={{backgroundColor : config.color.db}} aria-labelledby="footer-heading">
         <h2 id="footer-heading" className="sr-only">
           Footer
         </h2>
@@ -103,7 +99,7 @@ const navigation = {
                 className="h-10  text-3xl text-white"
                 // src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
                 // alt="Company name"
-              >GRENERGY</p>
+              >BrarSoft</p>
               <p className="text-gray-200 text-base">
                 Making the world a better place through constructing elegant hierarchies.
               </p>
@@ -119,7 +115,7 @@ const navigation = {
             <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">Solutions</h3>
+                  {/* <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">Solutions</h3> */}
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.solutions.map((item) => (
                       <li key={item.name}>
@@ -131,7 +127,7 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">Support</h3>
+                  {/* <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">Support</h3> */}
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.support.map((item) => (
                       <li key={item.name}>
@@ -145,7 +141,7 @@ const navigation = {
               </div>
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">Company</h3>
+                  {/* <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">Company</h3> */}
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
@@ -157,7 +153,7 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">Legal</h3>
+                  {/* <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">Legal</h3> */}
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.legal.map((item) => (
                       <li key={item.name}>
@@ -172,7 +168,7 @@ const navigation = {
             </div>
           </div>
           <div className="mt-12 border-t border-gray-200 pt-8">
-            <p className="text-base text-gray-200 xl:text-center">&copy; 2021 GRENERGY, Inc. All rights reserved.</p>
+            <p className="text-base text-gray-200 xl:text-center">&copy; 2021 BrarSoft, Inc. All rights reserved.</p>
           </div>    
 
           

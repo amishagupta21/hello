@@ -10,41 +10,54 @@ const features = [
   { name: 'OCPP Compatible', icon: ChipIcon  ,color : "purple"},
   { name: 'Remote Access', icon: ShieldCheckIcon  ,color : "green"},
 ]
+import config from "../../config/config"
+
+import car from "../../public/icons/home/car.svg"
+import Image from 'next/image'
 
 export default function Example() {
   return (
-    <div style={{background  : "#F3F2F3"}}  className="relative bg-white py-16 sm:py-20 lg:py-32">
-      <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-        {/* <h2 className="text-base font-semibold tracking-wider text-indigo-600 uppercase">Deploy faster</h2> */}
-        <p className="mt-2 font-mono text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-          OUR MAJOR GOALS
-        </p>
-        <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-          Its great to know our features lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
-          malesuada. Eleifend condimentum id viverra nulla.
-        </p>
-        <div className="mt-12">
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {features.map((feature) => (
-              <div key={feature.name} className={`pt-6  `}>
-                <div className={`flow-root bg-gray-50 rounded-lg px-6 pb-8  bg-${feature.color}-100`}>
-                  <div className="-mt-6">
-                    <div>
-                      <span className={`inline-flex items-center justify-center p-3 bg-gradient-to-b  from-${feature.color}-300 to-${feature.color}-600 rounded-md shadow-lg`}>
-                        <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">{feature.name}</h3>
-                    <p className="mt-5 text-base text-gray-500">
-                      Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
+  
+    <div style={{background  : "#F3F2F3"}} className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="p-8  ">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-40 h-20 mx-auto mb-6 rounded-full  sm:w-40 sm:h-20">
+            <Image src={car} />
+            </div>
+            <h6 className="mb-2 font-bold text-xl leading-5" >12,544</h6>
+            <p className="mb-3 text-sm text-gray-900">
+            Your electric vehicle gets charged in no time with our <strong style={{color : config.color.lb}} >car charging stations.</strong>
+            </p>
           </div>
         </div>
+        <div className="p-8  ">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-40 h-20 mx-auto mb-6 rounded-full  sm:w-40 sm:h-20">
+               <Image src={car} />
+            </div>
+            <h6 className="mb-2 font-bold text-xl leading-5">124 kWh</h6>
+            <p className="mb-3 text-sm text-gray-900">
+              You can save a considerable amount of money with our cost-effective <strong style={{color : config.color.lb}} >EV car charging </strong> station services.
+
+            </p>
+          </div>
+        </div>
+        <div className="p-8   lg:border-r-0">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-40 h-20 mx-auto mb-6 rounded-full  sm:w-40 sm:h-20">
+            <Image src={car} />
+            </div>
+            <h6 className="mb-2 font-bold text-xl leading-5">20%</h6>
+            <p className="mb-3 text-sm text-gray-900">
+            We offer you clean energy solutions and save the environment from unwanted emission of gases.
+
+            </p>
+          </div>
+        </div>
+       
       </div>
     </div>
+
   )
 }

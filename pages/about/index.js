@@ -12,14 +12,10 @@ export default function About() {
     <div>
      <div className=""> <Navbar /></div>
 
-    <div>
-      <img className="bg-gray-50" src="./icons/navwaves.svg" />
-    </div>
 
     <Slide1 />
     <Slide2 />
     <Slide3 />
-
 
 
     <Footer />

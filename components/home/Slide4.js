@@ -22,14 +22,13 @@ export default function Example() {
           <div className="px-4 max-w-6xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
               <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-                  <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                </span>
+             
               </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Better understand your customers
-                </h2>
+              <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              NETWORK SOLUTIONS
+            </h2>
+
                 <p className="mt-4 text-lg text-gray-500">
                   Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
                   porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
@@ -39,15 +38,7 @@ export default function Example() {
                   Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
                   porttitor. 
                 </p>
-                <div className="mt-6">
-                  <a
-                    href="/contact"
-                    style={{background :"#F4785A"}}
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
-                  >
-                    Get started
-                  </a>
-                </div>
+                
               </div>
             </div>
           </div>

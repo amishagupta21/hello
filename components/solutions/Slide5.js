@@ -37,30 +37,13 @@ export default function Slide5() {
             </svg>
           </div>
           <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="relative rounded-2xl px-6 py-10 bg-purple-700 overflow-hidden shadow-xl sm:px-12 sm:py-20">
+            <div className="relative rounded-2xl px-6 py-10  overflow-hidden  sm:px-12 sm:py-20">
               <div aria-hidden="true" className="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
-                <svg
-                  className="absolute inset-0 h-full w-full"
-                  preserveAspectRatio="xMidYMid slice"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 1463 360"
-                >
-                  <path
-                    className="text-purple-500 text-opacity-40"
-                    fill="currentColor"
-                    d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z"
-                  />
-                  <path
-                    className="text-purple-800 text-opacity-40"
-                    fill="currentColor"
-                    d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z"
-                  />
-                </svg>
+               
               </div>
               <div className="relative">
                 <div className="sm:text-center">
-                  <h2 className="text-3xl font-bold text-white tracking-tight sm:text-4xl">
+                  <h2 className="text-3xl font-bold text-gray-600 tracking-tight sm:text-4xl">
                     Get in touch with out team to help you get notified !
                   </h2>
                  
@@ -71,9 +54,9 @@ export default function Slide5() {
                    <a href="/contact">
                     <button
                       type="submit"
-                      className="block w-full rounded-md border border-transparent px-5 py-3 bg-gray-100 text-base font-semibold text-purple-900 shadow hover:bg-purple-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-500 sm:px-10"
+                      className="ev-button hover:shadow-xl  mt-2 w-full inline-flex items-center justify-center px-14 py-1   text-base font-medium  sm:w-auto"
                     >
-                      Get in touch with us !
+                      Get in touch with us
                     </button>
                     </a>
                   </div>
