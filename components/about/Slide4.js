@@ -23,12 +23,12 @@ const features = [
 
 export default function Slide2() {
   return (
-    <div className="overflow-hidden py-8 " style={{background  : "#F3F2F3"}}>
+    <div className="overflow-hidden py-8 " >
       <div className="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         
 
         <div className="lg:col-span-1">
-            <h2 className="text-3xl font-extrabold tracking-normal text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-extrabold tracking-widest text-gray-900 sm:text-4xl">
               WHAT WE DO
             </h2>
 

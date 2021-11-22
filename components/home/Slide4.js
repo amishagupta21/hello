@@ -25,7 +25,7 @@ export default function Example() {
              
               </div>
               <div className="mt-6">
-              <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="text-3xl font-extrabold tracking-normal text-gray-900 sm:text-4xl">
               NETWORK SOLUTIONS
             </h2>
 
