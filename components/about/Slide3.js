@@ -19,7 +19,7 @@ const Feature = () => {
           </div>
          
           <p className="mb-3 text-center text-base text-gray-500">
-          EV chargers management software - EV chargers setup (Networking and Chargers installations)
+          Provide aggregative control over the energy distribution networks
           </p>
        
         </div>
@@ -29,8 +29,7 @@ const Feature = () => {
           </div>
      
           <p className="mb-3 text-center text-base text-gray-500">
-              Solar energy integration 
-              software solutions
+          Offer highly customized solutions using smart and energy-efficient IoT devices and integration of the solar with our app
           </p>
        
         </div>
@@ -40,7 +39,7 @@ const Feature = () => {
           </div>
        
           <p className="mb-3 text-center text-base text-gray-500">
-          Custom IOT software solutions for different types of hardware
+          Problem-solving approach followed by our customer representatives 24*7
           </p>
         
         </div>

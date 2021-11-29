@@ -19,8 +19,8 @@ const Feature = () => {
           </div>
          
           <p className="mb-3 text-center text-base text-gray-500">
-              Run earth on <strong>100% </strong> 
-              sustainable energy
+              Wise use of the <strong>renewable </strong> 
+              energy resources
           </p>
        
         </div>
@@ -30,8 +30,8 @@ const Feature = () => {
           </div>
      
           <p className="mb-3 text-center text-base text-gray-500">
-              Run earth on <strong>100% </strong> 
-              sustainable energy
+          Help reduce the   <strong>carbon </strong> 
+          emission 
           </p>
        
         </div>
@@ -41,8 +41,8 @@ const Feature = () => {
           </div>
        
           <p className="mb-3 text-center text-base text-gray-500">
-              Run earth on <strong>100% </strong> 
-              sustainable energy
+            Smart   <strong>charging solutions  </strong> 
+            save you money  
           </p>
         
         </div>

@@ -24,7 +24,7 @@ const features = [
 export default function Slide2() {
   return (
     <div className="overflow-hidden py-8 " >
-      <div className="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="relative max-w-7xl mx-auto py-12 px-12 sm:px-24  md:px-24 lg:px-8">
         
 
         <div className="lg:col-span-1">
@@ -42,13 +42,13 @@ export default function Slide2() {
           <dl className="mt-10 sm:ml-24 -ml-12 sm:w-3/4 mx-auto space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
         
             <div >
-                <dt  className="-ml-9 sm:-ml-2"   >
-                     <Image   src={charger} />
+                <dt  className="-ml-9 sm:-ml-2 animate__animated animate__backInLeft animate__delay-0.3s"   >
+                     <Image    src={charger} />
                 </dt>
               </div>
 
             <div >
-                <dt style={{marginLeft : "-10px"}}>
+                <dt  style={{marginLeft : "-10px"}}>
                         <Image   src={solar} />
                 </dt>
             </div>

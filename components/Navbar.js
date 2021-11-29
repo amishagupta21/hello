@@ -1,94 +1,64 @@
- import react, {useState} from "react"
+ import react, {useState, useEffect} from "react"
+ import Link from "next/link";
+import { useRouter } from "next/router";
  
- 
- const Navbar = () => {
+ const Navbar = ({shadow}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const router = useRouter();
+
+
 
   return (
-    <div class="bg-gray-200">
-      <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
-        <div class="relative flex items-center justify-between">
+    <div   class="bg-gray-200 shadow-md" style={{position : "fixed" , width : "100%" , zIndex : 999  }}>
+      <div class="px-4 py-3 sm:py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
+        <div class="relative navitem flex items-center justify-between" >
           <a
             href="/"
             aria-label="Company"
             title="Company"
             class="inline-flex items-center"
           >
-            {/* <svg
-              class="w-8 text-teal-accent-400"
-              viewBox="0 0 24 24"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeMiterlimit="10"
-              stroke="currentColor"
-              fill="none"
-            >
-              <rect x="3" y="1" width="7" height="12" />
-              <rect x="3" y="17" width="7" height="6" />
-              <rect x="14" y="1" width="7" height="6" />
-              <rect x="14" y="11" width="7" height="12" />
-            </svg> */}
-
+            
             <div className="flex mx-auto justify-center w-8 h-8  text-gray-700 ">
               <img  src="./icons/navfire.svg" />
             </div>
 
 
-            <span class="ml-2 text-2xl font-medium tracking-wide text-gray-700 " >
+            <span class="ml-2 text-xl sm:2xl font-medium tracking-wide text-gray-700 " >
               BrarSoft
             </span>
           </a>
           <ul class="flex items-center hidden space-x-8 lg:flex">
-            <li>
-              <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
-                class="font-bold tracking-wide text-gray-600  hover:text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Home
-              </a>
+            <li className={router.pathname == "/" ? "active nav" : "nav"}>
+               <Link href="/"   >
+                 Home
+                 </Link>
             </li>
-            <li>
-              <a
-                href="/about"
-                aria-label="Our product"
-                title="Our product"
-                class="font-bold tracking-wide text-gray-600  hover:text-gray-900  transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                AboutUs
-              </a>
+            <li className={router.pathname == "/solutions" ? "active nav" : "nav"}>
+               <Link href="/solutions"   >
+                 Energy Solutions
+                 </Link>
             </li>
-            <li>
-              <a
-                href="/solutions"
-                aria-label="Product pricing"
-                title="Product pricing"
-                class="font-bold tracking-wide text-gray-600  hover:text-gray-900  transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Solutions
-              </a>
-            </li>
-            <li>
+            {/* <li>
               <a
                 href="/network"
-                aria-label="Solutions"
-                title="About us"
-                class="font-bold tracking-wide text-gray-600 hover:text-gray-900  transition-colors duration-200 hover:text-teal-accent-400"
+                aria-label="Product pricing"
+                title="Product pricing"
+                style={{fontWeight : "500"}}
+                class="text-base  tracking-wide text-gray-600  hover:text-gray-900  transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Network
+               Networking Solutions
               </a>
+            </li> */}
+            <li className={router.pathname == "/about" ? "active nav" : "nav"}>
+               <Link href="/about"   >
+                    About us
+                 </Link>
             </li>
-            <li>
-              <a
-                href="/contact"
-                aria-label="About us"
-                title="About us"
-                class="font-bold tracking-wide text-gray-600 hover:text-gray-900  transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Contact us
-              </a>
+            <li className={router.pathname == "/contact" ? "active nav" : "nav"}>
+               <Link href="/contact"   >
+                   Reach us
+                 </Link>
             </li>
           </ul>
           <div class="lg:hidden">
@@ -114,7 +84,7 @@
               </svg>
             </button>
             {isMenuOpen && (
-              <div class="absolute -mt-2 top-0 left-0 w-full z-40">
+              <div class="absolute overflow-hidden    top-0 left-0 w-full z-99999">
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
@@ -155,19 +125,20 @@
                           href="/"
                           aria-label="Our product"
                           title="Our product"
-                          class="font-bold tracking-wide   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className={router.pathname == "/" ? "bg-gray-200 p-2 block rounded-md font-bold tracking-wide   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide block   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"}
+                          // class="font-bold tracking-wide   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Home
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/about"
+                          href="/network"
                           aria-label="Our product"
                           title="Our product"
-                          class="font-bold tracking-wide text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className={router.pathname == "/network" ? "bg-gray-200 p-2 block rounded-md font-bold tracking-wide   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide block   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"}
                         >
-                          About us
+                          Networking Solutions
                         </a>
                       </li>
                       <li>
@@ -175,19 +146,19 @@
                           href="/solutions"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          class="font-bold tracking-wide text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className={router.pathname == "/solutions" ? "bg-gray-200 p-2 block rounded-md font-bold tracking-wide   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide block   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"}
                         >
-                          Solutions
+                          Energy Solutions
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/network"
+                          href="/about"
                           aria-label="About us"
                           title="About us"
-                          class="font-bold tracking-wide text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className={router.pathname == "/about" ? "bg-gray-200 p-2 block rounded-md font-bold tracking-wide   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide block   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"}
                         >
-                           Network
+                          About us
                         </a>
                       </li>
                       <li>
@@ -195,9 +166,9 @@
                           href="/contact"
                           aria-label="About us"
                           title="About us"
-                          class="font-bold tracking-wide text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className={router.pathname == "/contact" ? "bg-gray-200 p-2 block rounded-md font-bold tracking-wide   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide block   text-gray-600 hover:text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-400"}
                         >
-                          Contact
+                          Reach us
                         </a>
                       </li>
                     </ul>

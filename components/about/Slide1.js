@@ -20,31 +20,24 @@ export default function Slide1() {
                     </span>
                   </h2>
                   <p className="text-base text-gray-500 md:text-lg">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                    quae. explicabo.
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                    quae. explicabo.
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                    quae. explicabo.
+                  We design software for charging today's smart electric vehicles like cars or bikes. We help electric vehicle charging station owners deploy the setup effectively. We strive to make their job easy and appreciable. We work with an aim of reducing the pain points of the owner of electric vehicles. So, we provide a smart and effective cloud-based platform that gives optimized charging solutions that are affordable and greener.
+
                   </p>
                 </div>
                
               </div>
               <div className="px-5 pt-6 pb-5 text-center  lg:grid  lg:grid-col-2  rounded lg:w-2/5">
         
-                <div className="lg:flex lg:flex-col md:inline-block inline-block md:mr-20  px-2.5 py-1.5 border border-transparent text-xs font-medium    focus:outline-none focus:ring-2 focus:ring-offset-2">
-                     <img  className="w-36 h-36 block " 
+                <div className="lg:flex lg:flex-col sm:mr-12 animate__animated animate__backInRight animate__delay-0.3s  md:inline-block inline-block md:mr-20  px-2.5 py-1.5 border border-transparent text-xs font-medium    focus:outline-none focus:ring-2 focus:ring-offset-2">
+                     <img  className="w-36 h-36  sm:w-36 sm:h-36 block " 
                         src="./icons/about/leaf.svg" />
-                     <p className="block text-left px-2.5 text-base text-gray-500 ">Reducing carbon <br></br> footprint</p>
+                     <p className="block text-left px-2.5 text-base text-gray-500 ">Clean Air Commitment  <br></br> and cheap fuel</p>
                 </div>
              
-                <div className="lg:flex lg:flex-col md:inline-block inline-block   relative lg:left-44 px-2.5 py-1.5 border border-transparent text-xs font-medium    focus:outline-none focus:ring-2 focus:ring-offset-2">
-                     <img  className="w-36 h-36 block " 
+                <div className="lg:flex lg:flex-col md:inline-block inline-block animate__animated animate__backInRight animate__delay-0.3s   relative lg:left-44 px-2.5 py-1.5 border border-transparent text-xs font-medium    focus:outline-none focus:ring-2 focus:ring-offset-2">
+                     <img  className="w-36 h-36  sm:w-36 sm:h-36  block " 
                         src="./icons/about/earth.svg" />
-                     <p className="block text-left px-2.5 text-base text-gray-500 ">Use greenenergy and <br></br> save earth</p>
+                     <p className="block text-left px-2.5 text-base text-gray-500 ">Support climate <br></br> change goals</p>
                 </div>
 
 

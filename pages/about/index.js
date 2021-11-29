@@ -10,7 +10,7 @@ import Slide4 from "../../components/about/Slide4"
 
 export default function About() {
   return (
-    <div>
+    <div className="overflow-hidden">
      <div className=""> <Navbar /></div>
 
 

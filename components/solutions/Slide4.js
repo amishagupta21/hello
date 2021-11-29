@@ -3,11 +3,11 @@ import config from "../../config/config"
 
 export const Slide3 = () => {
     return (
-      <div className="px-4 sm:my-8  my-8 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 sm:my-8  my-8 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="flex flex-col lg:flex-row">
         
           <div>
-           <h5 className="mb-12 text-3xl font-extrabold leading-none">
+           <h5 className="mb-2 text-3xl font-extrabold leading-none">
               DYNAMIC LOAD MANAGEMENT
             </h5>
            <div className="grid gap-8 row-gap-5 sm:grid-cols-2">

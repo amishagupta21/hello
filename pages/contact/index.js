@@ -12,8 +12,8 @@ export default function Example() {
     
 
     <div className="bg-white">
-      <div className=" mx-auto  md:px-24 sm:pt-0 md:px-0 lg:pt-24 px-0  lg:px-0">
-        <div className="relative max-w-8xl  mx-auto ">
+      <div className=" mx-auto   2xl:px-24  pt-0  lg:pt-24  px-0  lg:px-0">
+        <div className="relative max-w-8xl sm:pt-20 pt-16  mx-auto ">
       
          
           <div className="grid grid-cols-1 lg:grid-cols-3">
@@ -145,18 +145,18 @@ export default function Example() {
             </div>
 
             {/* Contact form */}
-            <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12 bg-white">
+            <div className="py-10 2xl:mx-48 xl:mx-28 mx-0    px-6 sm:px-10 lg:col-span-2 xl:p-12 bg-white">
               <h3 className="text-lg font-medium text-gray-500">Let us work towards <strong>sustainabe</strong> and <strong>greener</strong> enviromnet</h3>
-              <form action="#" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <form data-botpoison-public-key="pk_000d7451-ff5a-4808-b059-63bc4c70b135" action="https://submit-form.com/fh06ruIl"  className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                 <div>
-                  {/* <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
-                    First name
-                  </label> */}
+                
                   <div className="mt-1">
                     <input
                       type="text"
-                      name="first-name"
-                      id="first-name"
+                      name="name"
+                      id="name"
+                      required
+                      style={{backgroundColor :"#DFDFDF"}}
                       autoComplete="given-name"
                       placeholder="Name"
                       className="py-3 px-4 block w-full bg-gray-200 shadow-sm text-gray-900 focus:ring-blue-800 outline-none active:border-2 border-2 focus:border-gray-500 border-gray-200 rounded-md"
@@ -170,10 +170,12 @@ export default function Example() {
                   <div className="mt-1">
                     <input
                       type="text"
-                      name="last-name"
-                      id="last-name"
+                      name="email"
+                      id="email"
+                      required
+                      style={{backgroundColor :"#DFDFDF"}}
                       placeholder="Email"
-                      autoComplete="family-name"
+                      autoComplete="email"
                       className="py-3 px-4 block w-full shadow-sm  text-gray-900 focus:ring-gray-800 outline-none border-2 bg-gray-200 focus:border-gray-500 border-gray-200 rounded-md"
                     />
                   </div>
@@ -183,18 +185,15 @@ export default function Example() {
                 
                 <div className="sm:col-span-2">
                   <div className="flex justify-between">
-                    {/* <label htmlFor="message" className="block text-sm font-medium text-gray-900">
-                      Message
-                    </label>
-                    <span id="message-max" className="text-sm text-gray-500">
-                      Max. 500 characters
-                    </span> */}
+                   
                   </div>
                   <div className="mt-1">
                     <textarea
                       id="message"
                       name="message"
+                      style={{backgroundColor :"#DFDFDF"}}
                       rows={4}
+                      required
                       placeholder="Tell us your requirement. We will be happy to work with you!"
                       className="py-3 px-4 block w-full bg-gray-200 shadow-sm text-gray-900 focus:ring-blue-800 border-2 focus:border-gray-500  outline-none rounded-md"
                       aria-describedby="message-max"
@@ -202,12 +201,12 @@ export default function Example() {
                     />
                   </div>
                 </div>
-                <div className="sm:col-span-2 sm:flex sm:justify-center">
+                <div className="sm:col-span-2 text-center sm:flex sm:justify-center">
                   <button
                     type="submit"
-                    className="ev-button hover:shadow-xl  mt-2 w-full inline-flex items-center justify-center px-14 py-1   text-base font-medium  sm:w-auto"
+                    className="md:w-1/3 w-4/5  sm:w-12  ev-button hover:shadow-xl  mt-2  inline-flex items-center justify-center px-14 py-1   text-base font-medium "
                   >
-                    Submit
+                    Reach us &#8594;
                   </button>
                 </div>
               </form>

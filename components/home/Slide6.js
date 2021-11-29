@@ -1,29 +1,14 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
+
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 
 export default function  Slide6() {
   return (
-    <div className="bg-gray-50 overflow-hidden py-8 " style={{background  : "#F3F2F3"}}>
-    <div className="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-50 pt-10 overflow-hidden py-12 " style={{background  : "#F3F2F3"}}>
+    <div className="relative max-w-7xl mx-auto justify-center px-0 sm:px-6 lg:px-8">
        
         <div className="grid grid-cols-1 lg:grid-cols-3">
           {/* Contact information */}
-          <div className="relative  py-10 px-6 bg-gray-100 sm:px-10 xl:p-12 ">
+          <div className="relative  py-10 px-6  sm:px-10 xl:p-12 ">
             <div className="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
               <svg
                 className="absolute inset-0 w-full h-full"
@@ -125,7 +110,7 @@ export default function  Slide6() {
                TOUCH
             </h3>
             <p className="mt-6 text-base text-gray-500 max-w-3xl">
-               Liked our approach ?<br></br>
+               Liked our approach ?
                Want to discuss your project ?
                <br></br>
                Get in touch with our team
@@ -150,9 +135,9 @@ export default function  Slide6() {
           </div>
 
           {/* Contact form */}
-          <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12 bg-gray-100">
+          <div className="py-10 px-6 sm:px-12 lg:col-span-2 xl:p-12 ">
             <h3 className="text-lg font-medium text-gray-500">Let us work towards <strong>sustainabe</strong> and <strong>greener</strong> enviromnet</h3>
-            <form action="#" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+            <form data-botpoison-public-key="pk_000d7451-ff5a-4808-b059-63bc4c70b135" action="https://submit-form.com/fh06ruIl"  className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
               <div>
                 {/* <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
                   First name
@@ -160,10 +145,11 @@ export default function  Slide6() {
                 <div className="mt-1">
                   <input
                     type="text"
-                    name="first-name"
-                    id="first-name"
+                    name="name"
+                    id="name"
                     autoComplete="given-name"
                     placeholder="Name"
+                    style={{backgroundColor :"#DFDFDF"}}
                     className="py-3 px-4 block w-full bg-gray-200 shadow-sm text-gray-900 focus:ring-blue-800 outline-none active:border-2 border-2 focus:border-gray-500 border-gray-200 rounded-md"
                   />
                 </div>
@@ -175,9 +161,10 @@ export default function  Slide6() {
                 <div className="mt-1">
                   <input
                     type="text"
-                    name="last-name"
-                    id="last-name"
+                    name="email"
+                    id="email"
                     placeholder="Email"
+                    style={{backgroundColor :"#DFDFDF"}}
                     autoComplete="family-name"
                     className="py-3 px-4 block w-full shadow-sm  text-gray-900 focus:ring-gray-800 outline-none border-2 bg-gray-200 focus:border-gray-500 border-gray-200 rounded-md"
                   />
@@ -199,6 +186,7 @@ export default function  Slide6() {
                   <textarea
                     id="message"
                     name="message"
+                    style={{backgroundColor :"#DFDFDF"}}
                     rows={4}
                     placeholder="Tell us your requirement. We will be happy to work with you!"
                     className="py-3 px-4 block w-full bg-gray-200 shadow-sm text-gray-900 focus:ring-blue-800 border-2 focus:border-gray-500  outline-none rounded-md"
@@ -207,13 +195,13 @@ export default function  Slide6() {
                   />
                 </div>
               </div>
-              <div className="sm:col-span-2 sm:flex sm:justify-center">
+              <div className="sm:col-span-2  text-center sm:flex sm:justify-center">
                 <button
-                  type="submit"
-                  className="ev-button hover:shadow-xl  mt-2 w-full inline-flex items-center justify-center px-14 py-1   text-base font-medium  sm:w-auto"
-                >
-                  Submit
-                </button>
+                    type="submit"
+                    className="md:w-1/3 w-4/5  sm:w-12  ev-button hover:shadow-xl  mt-2  inline-flex items-center justify-center px-14 py-1   text-base font-medium "
+                  >
+                    Reach us &#8594;
+                  </button>
               </div>
             </form>
           </div>

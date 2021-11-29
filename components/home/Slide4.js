@@ -13,10 +13,10 @@ import { InboxIcon, SparklesIcon } from '@heroicons/react/outline'
 export default function Example() {
   return (
     <div style={{background  : "#F3F2F3"}} className="relative  pt-8 pb-8 overflow-hidden">
-      <div className="relative">
+      <div className="relative    -mb-2  mx-auto py-8 px-0 sm:px-0 md:px-10 lg:px-20">
         
         
-      </div>
+      
       <div className="mt-24 ">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-6xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
@@ -53,6 +53,7 @@ export default function Example() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }
