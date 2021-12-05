@@ -15,14 +15,11 @@ import Navbar from "../components/Navbar"
 
 import Head from "next/head"
 
-import React, { useRef, useState } from "react";
+import React, { useRef, useState  , useEffect} from "react";
 
-class App extends React.Component  {
+const App = () => {
 
  
-  
-  render(){
-
 
   return (
 
@@ -37,7 +34,7 @@ class App extends React.Component  {
            <Navbar />
       </div>
 
-      <div  className="pagecontainer"  onScroll={this.handleScroll} >
+      <div  className="pagecontainer"   >
         <div className="">
          <div id="video"  >
            <video   width="100%" height="auto" autoPlay="autoplay"   >
@@ -77,7 +74,7 @@ class App extends React.Component  {
     </div>
    
     )
-  }
+  
 }
 
 
