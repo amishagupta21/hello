@@ -19,6 +19,8 @@ import React, { useRef, useState  , useEffect} from "react";
 
 const App = () => {
 
+
+
  
 
   return (
@@ -37,7 +39,7 @@ const App = () => {
       <div  className="pagecontainer"   >
         <div className="">
          <div id="video"  >
-           <video   width="100%" height="auto" autoPlay="autoplay"   >
+           <video   width="100%" height="auto" autoPlay="autoplay" loop preload="auto"  muted  >
             <source src="/video/home.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
            </video>  
            <p className="header__text animate__animated animate__backInLeft animate__delay-2s text-2xl md:text-3xl  lg:text-5xl xl:text-6xl ">BRARSOFT</p>

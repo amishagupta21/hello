@@ -32,7 +32,7 @@ import { useRouter } from "next/router";
             <li className={router.pathname == "/" ? "active nav" : "nav"}>
                <Link href="/"   >
                  Home
-                 </Link>
+             </Link>
             </li>
             <li className={router.pathname == "/solutions" ? "active nav" : "nav"}>
                <Link href="/solutions"   >
