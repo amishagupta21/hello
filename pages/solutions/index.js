@@ -41,9 +41,8 @@ export default function Example() {
                     </span>
                     </h2>
                     <p className="text-base text-gray-700 md:text-lg">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                    quae. explicabo.
+                    Manage and control your EV charging infrastructure using our white label software. Our EV charging platform is fully customized so you can decide on who will handle the specific roles! We fit your residential or commercial needs so don’t hesitate to hire our professionals for getting your cloud-based EV charging platforms and app.
+
                     </p>
                 </div>
                 <div className="flex flex-col items-center md:flex-row">
@@ -64,7 +63,7 @@ export default function Example() {
                  <img
                     className="object-cover w-full h-56 rounded  sm:h-96"
                     src="./icons/home.png"
-                    alt=""
+                    alt="Hassle free charging 24*7 Smart Charging Environment friendly systems Cheaper and greener fuel"
                 /> 
                
                 </div>

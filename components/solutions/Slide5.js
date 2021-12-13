@@ -29,8 +29,8 @@ export default function Slide5() {
               </div>
               <div className="relative">
                 <div className="sm:text-center">
-                  <h2 className="text-3xl font-bold text-gray-600 tracking-tight sm:text-4xl">
-                    Get in touch with out team to help you get notified !
+                  <h2 className="text-2xl font-medium text-gray-600 tracking-tight sm:text-4xl">
+                  If you want to grow your business with the help of our innovative solutions then don’t think twice! You will never regret collaborating with us. Reach us now!
                   </h2>
                  
                 </div>

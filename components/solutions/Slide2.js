@@ -24,7 +24,7 @@ export const Slide2 = () => {
             </div>
           
             <div className="mb-2 text-gray-700">
-              I will remember and recover, not forgive and forget.
+            Access to various charging locations
             </div>
           </div>
           <div className="px-12 text-center sm:px-0">
@@ -44,7 +44,7 @@ export const Slide2 = () => {
             </div>
             
             <div className="mb-2 text-gray-700">
-              I have nothing to lose but something to gain.
+            Real time charging behavior
             </div>
           </div>
           <div className="px-12 text-center sm:px-0">
@@ -103,7 +103,7 @@ export const Slide2 = () => {
             </div>
             
             <div className="mb-2 text-gray-700">
-              White is not always light and black is not always dark.
+              WA broad charging network with cloud-based system
             </div>
           </div>
           <div className="px-12 text-center sm:px-0">
@@ -115,7 +115,7 @@ export const Slide2 = () => {
             </div>
           
             <div className="mb-2 text-gray-700">
-              The meaning of life is to give life meaning.
+            fullfill your charging needs effortlessly using our app
             </div>
           </div>
 
@@ -127,7 +127,7 @@ export const Slide2 = () => {
 
             </div>
             <div className="mb-2 text-gray-700">
-              The meaning of life is to give life meaning.
+            allows to manage the whole network securely
             </div>
           </div>
 
@@ -151,7 +151,7 @@ export const Slide2 = () => {
 
             </div>
             <div className="mb-2 text-gray-700">
-              The meaning of life is to give life meaning.
+            Our solutions are compatible with all electric vehicle platforms
             </div>
           </div>
 
@@ -169,7 +169,7 @@ export const Slide2 = () => {
 
             </div>
             <div className="mb-2 text-gray-700">
-              The meaning of life is to give life meaning.
+            Advanced remote access
             </div>
           </div>
 
