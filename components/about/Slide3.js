@@ -17,8 +17,8 @@ const Feature = () => {
           <div className="flex mx-auto justify-center w-20 h-20 mb-4 ">
             <img src="./icons/about/fire.svg" />
           </div>
-         
-          <p className="mb-3 text-center text-base text-gray-500">
+          <br></br>
+          <p className="mb-3 text-center  leading-relaxed text-justify text-base text-gray-500">
           Provide aggregative control over the energy distribution networks
           </p>
        
@@ -27,8 +27,8 @@ const Feature = () => {
           <div className="flex mx-auto justify-center w-20 h-20 mb-4 ">
             <img src="./icons/about/panel.svg" />
           </div>
-     
-          <p className="mb-3 text-center text-base text-gray-500">
+          <br></br>
+          <p className="mb-3 text-center   leading-relaxed text-justify text-base text-gray-500">
           Offer highly customized solutions using smart and energy-efficient IoT devices and integration of the solar with our app
           </p>
        
@@ -37,8 +37,8 @@ const Feature = () => {
           <div className="flex mx-auto justify-center w-20 h-20 mb-4 ">
             <img src="./icons/about/charger.svg" />
           </div>
-       
-          <p className="mb-3 text-center text-base text-gray-500">
+          <br></br>
+          <p className="mb-3 text-center  leading-relaxed text-justify text-base text-gray-500">
           Problem-solving approach followed by our customer representatives 24*7
           </p>
         

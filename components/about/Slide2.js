@@ -17,7 +17,7 @@ const Feature = () => {
           <div className="flex mx-auto justify-center w-28 h-28 mb-4 ">
             <img src="./icons/about/plant.svg" />
           </div>
-         
+         <br></br>
           <p className="mb-3 text-center text-base text-gray-500">
               Wise use of the <strong>renewable </strong> 
               energy resources
@@ -28,9 +28,9 @@ const Feature = () => {
           <div className="flex mx-auto justify-center w-28 h-28 mb-4 ">
             <img src="./icons/about/plant.svg" />
           </div>
-     
+          <br></br>
           <p className="mb-3 text-center text-base text-gray-500">
-          Help reduce the   <strong>carbon </strong> 
+          Help reduce the <strong>carbon </strong> 
           emission 
           </p>
        
@@ -39,7 +39,7 @@ const Feature = () => {
           <div className="flex mx-auto justify-center w-28 h-28 mb-4 ">
             <img src="./icons/about/plant.svg" />
           </div>
-       
+          <br></br>
           <p className="mb-3 text-center text-base text-gray-500">
             Smart   <strong>charging solutions  </strong> 
             save you money  

@@ -31,10 +31,10 @@ export default function Slide2() {
             <h2 className="text-3xl font-extrabold tracking-widest text-gray-900 sm:text-4xl">
               WHAT WE DO
             </h2>
-
-            <p className="pt-4 text-gray-500"> When you search for electric vehicle charging stations near me? 
+<br></br>
+            <p className="pt-4 text-gray-500  leading-relaxed text-justify">When you search for electric vehicle charging stations near me? 
 </p>
-            <p className="-py-8 text-gray-500">Our team members strive to offer you clean energy solutions at affordable prices. The world needs more and more environment-friendly energy sources and we work with full dedication to provide you with the best possible solutions. And we work with aim of supporting this goal. </p>
+            <p className="-py-8 text-black-500  leading-relaxed text-justify">Our team members strive to offer you clean energy solutions at affordable prices. The world needs more and more environment-friendly energy sources and we work with full dedication to provide you with the best possible solutions. And we work with aim of supporting this goal. </p>
          </div>
 
         <div className="relative mt-12 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-x-8">

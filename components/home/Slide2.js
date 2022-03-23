@@ -32,23 +32,25 @@ export default function Slide2() {
               WHAT WE DO
             </h2>
 
-            <p className="pt-4 text-gray-500"> When you search for electric vehicle charging stations near me? 
+            <p className="pt-4 text-gray-500 text-justify leading-relaxed">When you search for electric vehicle charging stations near me? 
 </p>
-            <p className="-py-8 text-gray-500">Our team members strive to offer you clean energy solutions at affordable prices. The world needs more and more environment-friendly energy sources and we work with full dedication to provide you with the best possible solutions. And we work with aim of supporting this goal. </p>
+            <p className="-py-8 text-black-500 text-left leading-relaxed ">Our team members strive to offer you clean energy solutions at affordable prices.
+            The world needs more and more environment-friendly energy sources and we work with full dedication to provide you with the best possible solutions. And we work with aim of supporting this goal.</p>
+            
          </div>
 
-        <div className="relative mt-12 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-x-8">
+        <div className="relative mt-12 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-x-12">
          
           <dl className="mt-10 sm:ml-24 -ml-12 sm:w-3/4 mx-auto space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
         
             <div >
-                <dt  className="-ml-9 sm:-ml-2"   >
+                <dt  className="-ml-9 sm:-ml-6"   >
                      <Image   src={charger} />
                 </dt>
               </div>
 
             <div >
-                <dt style={{marginLeft : "-10px"}}>
+                <dt style={{marginLeft : "-25px"}}>
                         <Image   src={solar} />
                 </dt>
             </div>

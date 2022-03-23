@@ -31,11 +31,12 @@ export default function Slide2() {
             <h2 className="text-3xl font-extrabold tracking-normal text-gray-900 sm:text-4xl">
               OUR PARTNERS
             </h2>
+            <br></br>
 
-            <p className="pt-4 text-gray-500"> We are leading in the future of electric Charing. Our firm is one of the top-notch electric car charging companies. 
+            <p className="-py-8 text-gray-500 text-left leading-relaxed"> We are leading in the future of electric Charing. Our firm is one of the top-notch electric car charging companies. 
 
              </p>
-            <p className="-py-8 text-gray-500">We have enough knowledge and expertise in this field from past years in providing you the well-designed and maintained EV charging stations. </p>
+            <p className="-py-8 text-gray-500 text-left leading-relaxed">We have enough knowledge and expertise in this field from past years in providing you the well-designed and maintained EV charging stations. </p>
          </div>
 
         <div className="relative mt-12 sm:mt-4 sm:grid sm:grid-cols-2 sm:gap-x-8">

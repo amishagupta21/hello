@@ -121,7 +121,7 @@ const navigation = {
           <div className="space-y-8 xl:col-span-1">
            
             <p className="text-gray-300 text-base">
-              worktime@softcoplus.ca
+              worktime@brarsoft.ca
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -136,19 +136,19 @@ const navigation = {
             <div className="grid grid-cols-2 gap-12 sm:mt-0 mt-10">
               <div>
                 <h3 className="text-xs sm:text-sm font-semibold text-gray-400 tracking-wider uppercase"><a className="hover:text-blue-100" href="/"> Home </a></h3>
-                <h3 className="text-xs sm:text-sm mt-4 font-semibold text-gray-400 tracking-wider uppercase"><a className="hover:text-blue-100" href="/solutions"> Energy Solutions </a></h3>
-                <h3 className="text-xs sm:text-sm mt-4 font-semibold text-gray-400 tracking-wider uppercase"><a className="hover:text-blue-100" href="/network"> Network Solutions </a></h3>
+                <h3 className="text-xs sm:text-sm mt-4 font-semibold text-gray-400 tracking-wider uppercase"><a className="hover:text-blue-100" href="/about"> About us </a></h3>
+                <h3 className="text-xs sm:text-sm mt-4 font-semibold text-gray-400 tracking-wider uppercase"><a className="hover:text-blue-100" href="/contact"> Reach us </a></h3>
               </div>
               <div className="md:mt-0"> 
-                <h3 className="text-xs sm:text-sm font-semibold text-gray-400 tracking-wider uppercase"><a className="hover:text-blue-100" href="/about"> About us </a></h3>
-                <h3 className="text-xs sm:text-sm mt-4 font-semibold text-gray-400 tracking-wider uppercase"><a className="hover:text-blue-100" href="/contact"> Reach us </a></h3>
+                <h3 className="text-xs sm:text-sm font-semibold text-gray-400 tracking-wider uppercase"><a className="hover:text-blue-100" href="/solutions"> Energy Solutions </a></h3>
+                <h3 className="text-xs sm:text-sm mt-4 font-semibold text-gray-400 tracking-wider uppercase"><a className="hover:text-blue-100" href="/network"> Network Solutions </a></h3>
               </div>
             </div>
           </div>
         </div>
         <div className="sm:mt-20 mt-12 border-t border-gray-200  pt-4">
           
-          <p className="text-base text-gray-400 text-center">&copy; 2021 Softcoplus, Inc. All rights reserved.</p>
+          <p className="text-base text-gray-400 text-center">&copy; 2021 Brarsoft, Inc. All rights reserved.</p>
         </div>
       </div>
  

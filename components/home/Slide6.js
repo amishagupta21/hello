@@ -128,7 +128,7 @@ export default function  Slide6() {
               </dt>
               <dd className="flex text-base text-blue-50">
                 <MailIcon className="flex-shrink-0 w-6 h-6 text-gray-500" aria-hidden="true" />
-                <span className="ml-3 text-gray-500">support@workcation.com</span>
+                <span className="ml-3 text-gray-500">support@brarsoft.com</span>
               </dd>
             </dl>
            

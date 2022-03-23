@@ -25,8 +25,8 @@ export default function Example() {
             <div className="flex items-center justify-center w-40 h-20 mx-auto mb-6 rounded-full  sm:w-40 sm:h-20">
             <Image src={car} />
             </div>
-            <h6 className="mb-2 font-bold text-xl leading-5" >12,544</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <h6 className="mb-2 font-bold text-xl leading-5  text-left" >12,544</h6>
+            <p className="mb-3 text-sm text-gray-900  leading-relaxed text-justify ">
             Your electric vehicle gets charged in no time with our <strong style={{color : config.color.lb}} >car charging stations.</strong>
             </p>
           </div>
@@ -36,8 +36,8 @@ export default function Example() {
             <div className="flex items-center justify-center w-40 h-20 mx-auto mb-6 rounded-full  sm:w-40 sm:h-20">
                <Image src={car} />
             </div>
-            <h6 className="mb-2 font-bold text-xl leading-5">124 kWh</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <h6 className="mb-2 font-bold text-xl leading-5 text-left">124 kWh</h6>
+            <p className="mb-3 text-sm text-gray-900 leading-relaxed text-justify ">
               You can save a considerable amount of money with our cost-effective <strong style={{color : config.color.lb}} >EV car charging </strong> station services.
 
             </p>
@@ -48,8 +48,8 @@ export default function Example() {
             <div className="flex items-center justify-center w-40 h-20 mx-auto mb-6 rounded-full  sm:w-40 sm:h-20">
             <Image src={car} />
             </div>
-            <h6 className="mb-2 font-bold text-xl leading-5">20%</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <h6 className="mb-2 font-bold text-xl leading-5 text-left">20%</h6>
+            <p className="mb-3 text-sm text-gray-900 leading-relaxed text-justify ">
             We offer you clean energy solutions and save the environment from unwanted emission of gases.
 
             </p>

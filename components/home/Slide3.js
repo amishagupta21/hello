@@ -20,7 +20,7 @@ const Content = () => {
             
               
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-normal text-gray-900 sm:text-4xl sm:leading-none">
-              EV
+              EV-
               <br className="block" />
               CHARGERS{' '}
               <span className="relative px-1">
@@ -30,7 +30,18 @@ const Content = () => {
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
             One liner about the project that will have a brief description about the same, so as to get idea what is this about.
+            </p><br></br>
+            <p className="text-base text-justify  text-gray-700 md:text-lg">
+            We are leading in the future of electric Charing. Our firm is one of the top-notch electric car charging companies. We have enough knowledge and expertise in this field from past years in providing you the well-designed and maintained EV charging stations.
+
+
             </p>
+            <p className="text-base text-justify text-gray-700 md:text-lg">
+           Connect with us now!
+<br></br>
+You can reach us to enjoy the world-class on-the-go electric vehicle charging solutions. We help our customers with the part & charge solutions, so time is not an issue. We have the most connected electric vehicle charging network.
+
+            </p><br></br>
           </div>
           <div className="grid gap-5 row-gap-8 sm:grid-cols-2">
             <button

@@ -29,14 +29,11 @@ export default function Example() {
               NETWORK SOLUTIONS
             </h2>
 
-                <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+                <p className="mt-4 text-lg text-gray-500 text-justify leading-relaxed">
+                Network Solutions is a publicly traded, technology company with a stated goal of helping entrepreneurs "start, grow and manage [their] business online.
                 </p>
-                <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. 
+                <p className="mt-4 text-lg text-gray-500 text-justify leading-relaxed">
+                " Solutions it offers include domain names, hosting, website design, online marketing, e-commerce and website security. Network Solutions manages more than 7 million domains worldwide. 
                 </p>
                 
               </div>

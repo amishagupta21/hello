@@ -19,7 +19,7 @@ export default function Slide1() {
                     
                     </span>
                   </h2>
-                  <p className="text-base text-gray-500 md:text-lg">
+                  <p className="text-base text-gray-500 leading-relaxed text-justify md:text-lg">
                   We design software for charging today's smart electric vehicles like cars or bikes. We help electric vehicle charging station owners deploy the setup effectively. We strive to make their job easy and appreciable. We work with an aim of reducing the pain points of the owner of electric vehicles. So, we provide a smart and effective cloud-based platform that gives optimized charging solutions that are affordable and greener.
 
                   </p>
